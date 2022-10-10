@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, course, css, html, tags, TheBarer, resume, cv">
+    <meta name="description" content="Это базовый курс по HTML, который проходит TheBarer">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="img/thebarer.webp">
+    <title>TheBarer course of HTML</title>
+</head>
+<body>
+    <div class="container">
+    <div class="about-text">
+        <img src="img/thebarer.webp" alt="Барер Дмитрий, аватар" id="avatar">
+        <div class="info">
+        <div class="info-text">
+            <h1>Дмитрий Барер</h1>
+            <p>Хочу стать разработчиком.</p>
+            <p>Я прохожу курс по HTML, планирую изчуть  JavaScript, React, TypeScript & etc.</p>
+        </div>
+        <div class="sn-links">
+            <p>Список социальных сетей:</p>
+            <div class="sn">
+                <img src="img/logo/vk.ico" alt="Логотип ВКонтакте">
+                <a href="http://vk.com/thebarer" target="_blank" rel="noopener noreferrer">ВКонтакте</a>
+            </div>
+            <div class="sn">
+                <img src="img/logo/telegram.webp" alt="Логотип Telegram">
+                <a href="http://t.me/thebarer" target="_blank" rel="noopener noreferrer">Telegram</a>
+            </div>
+            <div class="sn">
+                <img src="img/logo/Instagram.png" alt="Логотип Instagram">
+                <a href="http://instagram.com/thebarer" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="card">
+        <h2>Мои хобби</h2>
+        <ul>
+            <li>Путешествия</li>
+            <li>Сноубординг</li>
+            <li>FPV Дроны</li>
+            <li>Акробатика</li>
+            <li>Кулинария</li>
+        </ul>
+    </div>
+    <div class="card">
+        <h2>Опыт работы</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Должность</th>
+                    <th>Год</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ООО "БТК"</td>
+                    <td>Монтажник связи</td>
+                    <td>2011-2012</td>
+                </tr>
+
+                <tr>
+                    <td>ООО "ОБИТ"</td>
+                    <td>Менеджер проектов</td>
+                    <td>2012-2016</td>
+                </tr>
+
+                <tr>
+                    <td>ООО "ОБИТ"</td>
+                    <td>Менеджер специальных проектов</td>
+                    <td>2016-Сейчас</td>
+                </tr>
+            </tbody>
+            
+        </table>
+    </div>
+    <div class="card contact">
+        <h2>Связаться со мной</h2>
+        <form>
+            <div class="input">
+                <label for="name">Ваше имя:</label><br>
+                <input type="text" id="name" placeholder="Введите ваше имя">
+            </div>
+            <div class="input">
+                <label for="email">Ваш e-mail:</label><br>
+                <input type="email" id="email" placeholder="Введите ваш e-mail">
+            </div>
+            <div>
+                <label for="description">Ваше сообщение:</label><br>
+                <textarea id="description" cols="20" rows="5" placeholder="Введите ваше сообщение..."></textarea>
+            </div>
+            <div>
+                <button type="submit" class="btn">Отправить!</button>
+            </div>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
