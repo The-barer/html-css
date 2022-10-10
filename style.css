@@ -1,0 +1,165 @@
+/* базовые стили∞ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    background-color: #eee;
+    color: #adafb3 ;
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding: 5px;
+}
+.about-text {
+    font-style: italic;
+    background-color: rgb(18, 18, 18);
+    border-radius: 15px;
+    padding: 15px 15px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+#avatar {
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(77, 77, 77, 0.25);
+    display: inline-block;
+    width: 150px;
+    box-sizing: border-box;
+    margin: 0px auto;
+    vertical-align: top;
+}
+.info {
+    display: inline-block;
+    width: 75%;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+.info-text{
+    width: 100%;
+}
+@media (max-width: 666px) {
+    .info {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    #avatar {
+        display: block;
+        text-align: center;
+        min-width: 150px;
+    }
+}
+.about-text h1 {
+    letter-spacing: 3px;
+}
+.sn-links {
+    display: block;
+    margin: 10px auto;
+}
+.sn {
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 10px;
+    padding: 0px;
+}
+.sn img {
+    display: inline-block;
+    width: 15px;
+    margin: 0px;
+}
+.sn a {
+    margin: 0px;
+}
+a {
+    color: #8692a9;
+    text-decoration: none;
+}
+a:visited {
+    color: rgba(82, 82, 82, 0.1);
+}
+a:hover {
+    color: #adafb3 ;
+    text-decoration:underline; 
+}
+
+.card li {
+    margin-left: 30px;
+}
+.card {
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.4); 
+    color: #000;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.btn {
+    background-color: rgb(18, 18, 18);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: #eee;
+}
+.btn:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    opacity: .9;
+    cursor: pointer;
+}
+.table {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border-spacing: 0px;
+    
+}
+.table th {
+    border-bottom: #000;
+    border-bottom: 1px solid #eee;
+} 
+.table td:nth-child(2) {
+    color: #adafb3;
+}
+.table tr:hover {
+    background-color: #eee;
+}
+.input {
+    display: inline-block;
+    width: 48%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    margin-top: 15px;   
+}
+@media (max-width: 666px){
+    .input {
+        display: block;
+        width: 100%;
+    }
+    .card h2{
+        text-align: center;
+    }
+
+}
+.input:first-child {
+    margin-right: 20px;
+}
+#description, #email, #name {
+    border: none;
+    border-bottom: 1px solid #adafb3 ;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    padding-bottom: 5px;
+    opacity: 0.5;
+}
+#description:focus, #email:focus, #name:focus {
+    outline-color: rgba(0, 0, 0, 0.5);
+}
+.contact h2{
+    text-align: center;
+}
